@@ -10,5 +10,5 @@ print(data.isnull().sum()) # checks for null values
 nltk.download('stopwords') 
 # SnowballStememr is a stemming algorithm which is used to perform stemming 
 stemmer = nltk.SnowballStemmer("english") 
-stopword=set(stopwords.words('english'))  
+stopword=set(stopwords.words("english"))  
 
